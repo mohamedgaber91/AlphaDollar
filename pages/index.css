@@ -106,7 +106,7 @@ ul li {
     justify-content: space-between; */
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    padding-top: 10px;
+    padding-top: -4px;
 }
 .our-nav .our-nav-content .icons{
     display: flex;
@@ -903,9 +903,9 @@ margin-right: 0;
         background-color: #009fdb;
         padding-top: 20px;
     }
-    .header {
-        height: 876px;
-    }
+    /* .header {
+        height: 746px;
+    } */
     .header .header-content .right .btns {
         /* margin-left: 0px; */
         display: flex;
@@ -913,10 +913,11 @@ margin-right: 0;
     }
     .header .header-content .right .btn-content .btn1 {
         margin: auto;
-        width: 136px;
+        width: 120px;
         font-size: 14px;
         padding-top: 9px;
         height: 43px;
+        margin-bottom: -23px;
     }
     
     .slider-controls, .slider-controls2, .slider-controls3 {
@@ -949,7 +950,8 @@ margin-right: 0;
         height: 35px;
     }
     .header .header-content{
-        display: block
+        display: block;
+        padding-top: 30px;
     }
     .header .header-content .right  .btn-content .sahm {
         margin-top: -80px;
@@ -965,27 +967,28 @@ margin-right: 0;
         margin-left: 0px;
     }
     .header .header-content .right  .bt {
-        width: 170px;
-        height: 60px;
-        font-size: 17px;
+        width: 132px;
+        height: 54px;
+        font-size: 15px;
         margin: auto;
         padding-top: 10px;
         padding-top: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 14px;
     }
    
     .header .header-content .left img {
         width: 100%;
-        margin-bottom: 54px;
+        margin-bottom: 33px;
     }
     .header .header-content .right h1 {
         font-size: 20px;
         font-weight: bold;
+        margin-bottom: 29px;
     }
     .header .header-content .right h2 {
-        margin-bottom: 83px;
+        margin-bottom: 48px;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
     }
     .section2 .section2-content .line-content .sec2-btns {
         gap: 7px
@@ -995,7 +998,7 @@ margin-right: 0;
         font-size: 7px;
         padding-top: 9px;
         height: 29px;
-        padding: 5px;
+        padding: 7px;
    
     }
     .slider-container, .slider-container2, .slider-container3 {
@@ -1035,7 +1038,8 @@ margin-right: 0;
         margin-left: -31px;
     }
     .coin .coin-content .alpha-boxs {
-        display: block;
+        align-items: baseline;
+        gap: 14px;
     }
     .coin .coin-content .more-info {
         width: 90%;
@@ -1045,15 +1049,14 @@ margin-right: 0;
     .coin .coin-content .alpha-boxs .alpha-box {
         display: flex;
         font-size: 10px;
-        gap: 5px;
         justify-content: space-around;
         margin-bottom: 27px;
     }
     .coin .coin-content .alpha-boxs .alpha-box button {
-        width: 75px;
+        width: 64px;
         margin-right: 10px;
         height: 48px;
-        font-size: 17px;
+        font-size: 12px;
         border: none;
         border-radius: 15px;
         color: white;
@@ -1067,18 +1070,19 @@ margin-right: 0;
         font-size: 19px;
     }
     .coin .coin-content .alpha-boxs .alpha-box h2 {
-        font-size: 20px;
+        font-size: 12px;
+        white-space: nowrap;
         margin-top: 10px;
     }
     .coin .coin-content .alpha-boxs .alpha-box img {
-        width: 50px;
-        height: 50px;
-       border: 2px solid black;
+        width: 32px;
+        height: 32px;
+        border: 2px solid black;
     }
     .coin .coin-content .partners {
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(86px,1fr));
-        gap: 61px;
+        gap: 47px;
         justify-content: center;
     }
     .coin .coin-content .partners img {
@@ -1319,6 +1323,7 @@ margin-right: 0;
 }
 #setting .side-bar-content .side h3 {
     font-size: 17px;
+    padding-right: 0px;
 }
 #setting .side-bar-content .side img {
     width: 31px;
@@ -1338,8 +1343,7 @@ margin-right: 0;
     margin-left: 0px;
 }
 .section2 {
-    padding-top: 108px;
-
+    padding-top: 38px;
 }
 .slider-controls .arrow {
   
@@ -1361,6 +1365,15 @@ margin-right: 0;
    
     height: 273px;
   
+}
+.footer {
+
+    padding-top: 9px;
+
+}
+#setting .close {
+    right: 2px;
+    width: 11px;
 }
 
   }

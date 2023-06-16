@@ -301,9 +301,10 @@ i.fa-solid.fa-download {
 i.fa-solid.fa-copy {
     font-size: 7px;
     padding-top: 0px;
+    display: none;
 }
 .user-content .box-data .copy h2 {
-    font-size: 1px;
+    font-size: 12px;
 }
 .user-content .box-data .copy {
    height: 100%;
@@ -340,7 +341,7 @@ i.fa-solid.fa-copy {
     display: block;
 }
 .user-content .box-data .code p, .user-content .box-data .link p {
-    font-size: 14px;
+    font-size: 10px;
     margin-left: -30px;
 }
 .user-content .card-account .procces .pro h3, .user-content .card-account .procces-s .pro h3, .user-content .card-account .procces-r .pro h3 {

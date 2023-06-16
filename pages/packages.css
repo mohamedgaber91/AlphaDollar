@@ -19,11 +19,8 @@ body{
     padding-bottom: 15px;
 }
 .packages{
-    /* background-image: url(../imges/back2.png);
-    background-size: cover; */
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+   padding-top: 39px;
+
 }
 .packages .heading{
 display: flex;
@@ -51,12 +48,14 @@ white-space: nowrap;
     margin-top: 100px;
     gap: 67px;
 }
-@media (max-width:500px) {
+@media (max-width:1100px) {
     .packages .packages-content{
         display: block;
     }
     .packages .packages-content .package{
-        margin-bottom: 50px;
+        display: block;
+        margin-top: -54px;
+        margin-bottom: 105px;
     }
 }
 .packages .packages-content .package{
@@ -174,11 +173,45 @@ white-space: nowrap;
         padding: 13px;
     }
     .packages .packages-content .package h2 {
-
-        font-size: 30px;
+        font-size: 25px;
+        margin-bottom: 9px;
     }
     .packages .package p {
         font-size: 12px;
      
+    }
+    .packages .packages-content .package .pac {
+        margin-bottom: 3px;
+       
+    }
+    .packages .packages-content .package .pac h3 {
+        font-size: 18px;
+    }
+    .packages .packages-content .package .btn {
+        font-size: 18px;
+        margin-bottom: 9px;
+      
+    }
+    .packages .packages-content .package.pm {
+        height: auto !important;
+      
+    }
+    .btn-s, .btn-s-1 {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .btn-s-1 {
+        margin-top: 37px;
+    }
+    .btn-s-1::before {
+        content: "";
+        width: 110%;
+        height: 6px;
+      
+        top: 50%;
+        left: -9px;
+       
     }
 }

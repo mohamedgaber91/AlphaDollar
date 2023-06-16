@@ -54,6 +54,7 @@ p.answer {
 @media (max-width:1100px) {
     .question{
         margin-bottom: 0;
+        padding: 0px;
     }
     .question h3 {
         font-size: 11px;
@@ -65,5 +66,8 @@ p.answer {
         font-size: 11px;
         line-height: 50px;
         padding: 0;
+    }
+    .questions-content {
+        margin-top: 10px;
     }
 }

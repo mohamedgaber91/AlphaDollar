@@ -145,23 +145,18 @@ body{
     .bot-header {
         height: 234px;
     }
-    .bots .heading {
-
-        margin-top: 68px;
-      
-    }
     .bots .heading img {
-        width: 41px;
+        width: 30px;
     }
     .bots .heading h2 {
-
-        font-size: 17px;
+        font-size: 14px;
+        white-space: nowrap;
     }
     .bots .mobile-bot-box{
         width: 100%;
     }
     .bots .mobile-bot-box .bo{
-        margin-bottom: 7px;
+        margin-bottom: -14px;
     }
     .bots .mobile-bot-box h3 {
         font-size: 30px;
@@ -169,18 +164,20 @@ body{
         white-space: nowrap;
     }
     .bots .heading {
-
         gap: 12px;
-     
+        align-items: baseline;
+        margin-top: 26px;
+        margin-bottom: 34px;
     }
     .bots .mobile-bot-box .bo h3 {
-        font-size: 16px;
+        font-size: 14px;
     }
     .bots .mobile-bot-box .moadal{
         display: block;
     }
     .bots .mobile-bot-box .moadal h3{
-        margin-bottom: 15px;
+        margin-bottom: 7px;
+        font-size: 14px;
     }
     .article h2 {
         font-size: 25px;
@@ -192,5 +189,12 @@ body{
     }
     .bots .bot-box .bo h3 span, .bots .mobile-bot-box .bo h3 span {
         font-size: 17px;
+    }
+    .btn-toactive {
+        width: 163px;
+        height: 62px;
+        font-size: 19px;
+        padding-top: 15px;
+      
     }
 }
