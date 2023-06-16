@@ -23,7 +23,7 @@ body{
     margin-top: 70px;
 }
 .methods .methods-content,.pay-cards .pay-cards-content{
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 .pay-cards .pay-cards-content .pay-box{
@@ -61,6 +61,7 @@ body{
 }
 select#currency {
     width: 122px;
+    text-transform: uppercase;
     text-align: center;
 
 }
@@ -119,12 +120,11 @@ font-weight: bolder;
     margin-top: 20px;
 }
 .pay-cards .pay-cards-content .process-number{
-    display: flex;
+       display: flex;
     gap: 10px;
     justify-content: end;
     margin-right: 72px;
-    margin-bottom: 31px;
-    margin-top: 20px;
+
 }
 .pay-cards .pay-cards-content .process-number h3{
     font-weight: bold;
@@ -190,6 +190,10 @@ input.form-control.num {
         width: 62px;
         margin-left: 0;
     }
+    .methods .methods-content .method-box img.visa, .pay-cards .pay-cards-content .pay-heading img.visa {
+        width: 80px;
+     
+    }
     .methods .methods-content .method-box .method-info, .pay-cards .pay-cards-content .pay-heading .pay-info {
  
         gap: 22px;
@@ -218,6 +222,7 @@ input.form-control.num {
     border-radius: 7px;
  
 }
+
 .pay-cards .pay-cards-content .process-number h3 {
     font-weight: bold;
     font-size: 20px;

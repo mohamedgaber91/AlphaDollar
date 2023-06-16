@@ -48,7 +48,7 @@ ul li {
     position: fixed;
     top: 0;
     padding: 15px;
-    left: -500px;
+    left: -1500px;
     overflow-y: scroll;
     height: 100%;
     z-index: 1000;
@@ -100,19 +100,19 @@ ul li {
 .our-nav{
     background-color: var(--main-color);
     color: white;
+    padding-top: 10px;
 }
 .our-nav .our-nav-content{
-    /* display: flex;
-    justify-content: space-between; */
+  
     display: grid;
     grid-template-columns: 20% 60% 20%;
     padding-top: -4px;
+    align-items: center;
 }
 .our-nav .our-nav-content .icons{
     display: flex;
     font-size: 35px;
-    padding-top: 7px;
-    gap: 61px;
+    gap: 9px;
 }
 .our-nav .our-nav-content .icons .one{
     margin-right: 30px;
@@ -140,7 +140,7 @@ ul li {
 }
 .our-nav .our-nav-content .links img{
     margin-bottom: 3px;
-    height: 35px;
+    height: 28px;
 }
 .our-nav .our-nav-content .links a{
     text-decoration: none;
@@ -159,7 +159,7 @@ ul li {
     font-size: 30px;
 }
 .our-nav .our-nav-content .logo img{
-    width: 200px;
+    width: 168px;
 }
 .logo {
     margin-right: 0;
@@ -195,12 +195,19 @@ ul li {
     font-weight: bold;
 }
 .header .header-content .right h2{
-    margin-bottom: 83px;
     font-weight: bold;
     font-size: 25px;
 }
 .header .header-content .right {
-margin-left: 100px;
+    margin-left: 100px;
+    position: relative;
+    margin-right: 10px;
+}
+img.sahm {
+
+    position: absolute;
+    width: 130px;
+    right: 0;
 }
 .header .header-content .right .btn-content{
 display: flex;
@@ -232,6 +239,8 @@ margin-bottom: -12px;
 .header .header-content .right  .bt{
     background-color: var(--btn-back);
     width: 200px;
+    margin: auto;
+    margin-right: 212px;
     height: 60px;
     font-size: 25px;
     color: white;
@@ -243,7 +252,6 @@ margin-bottom: -12px;
 }
 .show {
     display: block;
-    margin-left: 84px;
 }
 .header .header-content .right  .bt:hover{
     background-color: transparent;
@@ -253,10 +261,11 @@ margin-bottom: -12px;
 .header .header-content .right  .btn1{
     transform: scale(1.3);
     font-size: 27px;
+    margin-top: 82px;
 }
 /* start section2 */
 .section2{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 70px;
     background-color: var(--main-color);
 
@@ -561,7 +570,7 @@ width: 100px;
 
 }
 .system .system-content .system-img img{
-
+width: 80%;
 }
 .system .system-content .system-boxs,
 .system .system-content .system-boxs-mobile{
@@ -587,9 +596,8 @@ width: 100px;
 }
 .system .system-content .system-line-box{
     margin-top: 41px;
-    /* margin-bottom: 166px; */
     padding-bottom: 70px;
-    margin-left: 113px;
+   
 }
 .system .system-content .system-boxs-mobile{
     display: none;
@@ -597,17 +605,15 @@ width: 100px;
 
 .system .system-content .system-line-box .system-line{
     background-color: black;
-    width: 73%;
     margin: auto;
-    transform: translate(2px, 35px);
+    transform: translate(10px, 35px);
     height: 5px;
 }
 .system .system-content .system-line-box .circle-nums{
     display: flex;
-    /* justify-content: space-around; */
-    gap: 386px;
+    gap: 390px;
     justify-content: center;
-    margin-right: 66px;
+    margin-right: -22px;
 }
 .system .system-content .system-line-box .circle-nums .c{
     background-color: #389ed8;
@@ -615,7 +621,6 @@ width: 100px;
     height: 60px;
     z-index: 2;
     border-radius: 50%;
-    /* padding-top: 10px; */
     font-size: 40px;
     outline: 10px solid white;
     color: white;
@@ -763,7 +768,7 @@ display: flex;
 }
 .coin .coin-content .partners {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 150px;
 }
 .coin .coin-content .partners .part img{
@@ -806,9 +811,8 @@ display: flex;
     padding-top: 80px;
     background-color: black;
     color: white;
-    padding-bottom: 20px;
-    
-    border-bottom: 15px solid white;
+    padding-bottom: 10px;
+   
  
 }
 .footer .footer-content{
@@ -967,9 +971,9 @@ margin-right: 0;
         margin-left: 0px;
     }
     .header .header-content .right  .bt {
-        width: 132px;
-        height: 54px;
-        font-size: 15px;
+        width: 108px;
+        height: 47px;
+        font-size: 14px;
         margin: auto;
         padding-top: 10px;
         padding-top: 13px;
@@ -1022,6 +1026,10 @@ margin-right: 0;
      
         padding-bottom: 0px;
     }
+    .our-nav{
+      
+        padding-top: 0px;
+    }
     .system .system-content .system-img img {
         width: 100%;
     }
@@ -1040,6 +1048,8 @@ margin-right: 0;
     .coin .coin-content .alpha-boxs {
         align-items: baseline;
         gap: 14px;
+        margin-top: 0;
+        margin-bottom: -41px;
     }
     .coin .coin-content .more-info {
         width: 90%;
@@ -1101,9 +1111,10 @@ margin-right: 0;
         height: 66px;
     }
     .footer .footer-content .social-icons {
-        display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(43px,1fr));
+        display: flex;
+        grid-template-columns: repeat(auto-fill,minmax(70px,1fr));
         justify-content: center;
+        justify-content: space-between;
     }
     .footer .footer-content .social-icons img{
         width: 50px;
@@ -1217,11 +1228,11 @@ margin-right: 0;
     }
     .coin .coin-content p {
         line-height: 40px;
-        font-size: 20px;
+        font-size: 13px;
         margin-left: 2px;
         margin-right: 2px;
         color: #000000c9;
-        margin-bottom: 100px;
+        margin-bottom: 38px;
     }
     .coin .coin-content .more-info a {
         font-size: 20px;
@@ -1258,6 +1269,7 @@ margin-right: 0;
     .our-nav .our-nav-content .icons {
         gap: 1px;
         align-items: center;
+        margin-top: 8px;
     }
     .about .about-content .about-img h3{
         display: block;
@@ -1302,7 +1314,7 @@ margin-right: 0;
     margin-bottom: 42px;
 }
 #setting{
-    width: 92%;
+    width: 234px;
 }
 .system .system-content .system-boxs-mobile .system-box h3 {
     font-size: 17px;
@@ -1373,9 +1385,14 @@ margin-right: 0;
 }
 #setting .close {
     right: 2px;
-    width: 11px;
+    width: 4px;
+    height: 10px;
+    top: 4px;
+    font-size: 12px;
 }
-
+img.sahm {
+display: none;
+}
   }
 
 

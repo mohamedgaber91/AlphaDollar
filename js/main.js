@@ -2,7 +2,7 @@ document.getElementById("menu").onclick=()=>{
     document.getElementById("setting").style.left="0px"
 }
 document.getElementById("close").onclick=()=>{
-    document.getElementById("setting").style.left="-500px"
+    document.getElementById("setting").style.left="-1500px"
 }
 document.getElementById("btn-show").onclick=()=>{
   document.getElementById("buttons").classList.add("show")

@@ -25,8 +25,8 @@ body{
     margin-top: 3px;
 }
 .our-nav .our-nav-content .links img {
-    width: 64px;
-    height: 29px;
+    width: 42px;
+    height: 24px;
 }
 .our-nav .our-nav-content .icons .user {
     width: 50px;
@@ -211,6 +211,7 @@ text-transform: capitalize;
     font-size: 28px;
     font-weight: bolder;
     letter-spacing: 7px;
+    margin-bottom: 0;
 }
 .packages-group .packages-content .package .pac .img-box h3{
     font-size: 28px;
@@ -382,16 +383,17 @@ text-transform: uppercase;
         gap: 20px;
     }
     .packages .packages-content .package .pac .btn-box .bt1 {
-        width: 84px;
+        width: 71px;
+        height: 40px;
     }
     .packages .packages-content .package .pac .btn-box, .packages .packages-content .package .pac .img-box {
-        gap: 10px;
+        gap: 4px;
         justify-content: center;
-        margin-top: 24px;
+    
      
     }
     .packages .packages-content .package .pac .img-box img {
-        width: 47px;
+        width: 33px;
     }
     .heading h2 {
         font-size: 25px;
@@ -412,7 +414,7 @@ text-transform: uppercase;
     }
     .packages .packages-content .package .pac .btn-box .bt2 {
   
-        font-size: 19px;
+        font-size: 14px;
       
     }
     .packages .packages-content .package .pac .img-box h3 {
@@ -420,16 +422,41 @@ text-transform: uppercase;
 
     }
     .packages .packages-content .package .pac.f, .packages-group .packages-content .package .pac.f{
-        display: block;
+    
+        gap: 9px;
+ 
+        align-items: center;
     }
     .packages .packages-content .package .pac h3 , .packages-group .packages-content .package .pac h3{
-        font-size: 14px;
+        font-size: 14px !important;
         white-space: nowrap;
     }
     .packages-group .packages-content .package .pac .btn-box,.packages-group .packages-content .package .pac .two  {
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 13px;
+        gap: 11px;
         display: flex;
+        align-items: baseline;
+    }
+    
+    .two h4 {
+        color: white;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .packages-group .packages-content .package .pac .two .btn-nb {
+        background-color: var(--four-color);
+        border: none;
+        width: 61px;
+        height: 26px;
+        border-radius: 6px;
+        color: white;
+        font-weight: bolder;
+        margin-left: 10px;
+    }
+    .packages-group .packages-content .package .pac .btn-box img {
+        width: 24px;
     }
     .packages .packages-content .package h2 {
         font-size: 25px;
@@ -470,5 +497,16 @@ text-transform: uppercase;
     .btn-taden {
         width: 179px;
         margin-top: 10px;
+    }
+    .packages .packages-content .package .pac{
+       
+        margin-bottom: -4px;
+      
+        padding-bottom: 10px;
+    }
+    .packages-group .packages-content .package .pac {
+       
+        margin-bottom: 3px;
+        padding-bottom: 11px;
     }
 }

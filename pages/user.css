@@ -15,7 +15,8 @@ body{
 
 }
 .our-nav{
-    padding-bottom: 15px;
+    padding-bottom: 9px;
+    padding-top: 10px;
 }
 .users{
     padding-bottom: 100px;
@@ -164,7 +165,7 @@ text-decoration: none;
 }
 
 .user-content  .card-account{
-    width: 60%;
+    width: 81%;
     margin-left: auto;
 }
 .user-content  .card-account-r{
@@ -216,7 +217,7 @@ text-decoration: none;
 .user-content  .card-account .procces-s .pro h3,
 .user-content  .card-account .procces-r .pro h3{
 font-size: 20px;
-white-space: nowrap;
+
 }
 .user-content  .card-account .procces .pro .icon i {
     transform: translate(-6px, 2px);
@@ -343,6 +344,7 @@ i.fa-solid.fa-copy {
 .user-content .box-data .code p, .user-content .box-data .link p {
     font-size: 10px;
     margin-left: -30px;
+    color: blue;
 }
 .user-content .card-account .procces .pro h3, .user-content .card-account .procces-s .pro h3, .user-content .card-account .procces-r .pro h3 {
 
@@ -360,6 +362,9 @@ i.fa-solid.fa-download {
 .active {
     width: 98px;
   
+}
+.our-nav{
+    padding-top: 0;
 }
 }
 

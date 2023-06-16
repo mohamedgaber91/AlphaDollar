@@ -40,8 +40,8 @@
     display: flex;
     justify-content: space-between;
     margin-left: 69px;
-
     align-items: center;
+    margin-top: 32px;
  
   }
   .numbers .des{
@@ -55,9 +55,9 @@
     font-size: 27px;
 }
 .validate-number.des {
-    display: flex;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 h3.copy {
     color: var(--main-color);
@@ -85,7 +85,8 @@ h3.copy {
   align-items: start;
   gap: 16px;
   font-size: 1px;
-  margin-top: -14px;;
+  margin-top: -14px;
+  margin-bottom: -27px
 }
 .pay-cards .pay-cards-content .process-number h3 {
   font-weight: bold;
