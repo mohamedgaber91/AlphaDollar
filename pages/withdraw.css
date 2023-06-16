@@ -120,11 +120,11 @@ font-weight: bolder;
     margin-top: 20px;
 }
 .pay-cards .pay-cards-content .process-number{
-       display: flex;
+    display: flex;
     gap: 10px;
     justify-content: end;
     margin-right: 72px;
-
+    margin-top: 20px;
 }
 .pay-cards .pay-cards-content .process-number h3{
     font-weight: bold;
