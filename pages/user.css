@@ -243,6 +243,14 @@ font-size: 20px;
     grid-template-columns: 10% 20% 20% 30%;
     gap: 0;
 }
+.user-content  .card-account .procces-r .pro img{
+    background-color: var(--main-color);
+    height: 36px;
+    padding: 7px;
+    border-radius: 5px;
+    width: 30px;
+    margin-bottom: 15px;
+}
 
 .user-content  .card-account .procces-s .duration{
     direction: rtl;
@@ -291,7 +299,7 @@ i.fa-solid.fa-download {
 
 .user-content .box-data h3 {
    
-    font-size: 8px;
+    font-size:10px;
    
 }
 .user-content .box-data .code, .user-content .box-data .link {
