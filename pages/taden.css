@@ -25,7 +25,7 @@ body{
     margin-top: 3px;
 }
 .our-nav .our-nav-content .links img {
-    width: 42px;
+    width: 26px;
     height: 24px;
 }
 .our-nav .our-nav-content .icons .user {
@@ -340,8 +340,9 @@ text-transform: uppercase;
     height: 261px;
     width: 100%;
 }
+
 .heading {
-    transform: translateY(-105px);
+    transform: translateY(-243px);
 }
 .article{
     text-align: center;
@@ -439,6 +440,7 @@ text-transform: uppercase;
         display: flex;
         align-items: baseline;
     }
+   
     
     .two h4 {
         color: white;

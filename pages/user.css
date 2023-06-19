@@ -291,7 +291,7 @@ i.fa-solid.fa-download {
 
 .user-content .box-data h3 {
    
-    font-size: 10px;
+    font-size: 8px;
    
 }
 .user-content .box-data .code, .user-content .box-data .link {
@@ -343,8 +343,9 @@ i.fa-solid.fa-copy {
 }
 .user-content .box-data .code p, .user-content .box-data .link p {
     font-size: 10px;
-    margin-left: -30px;
+    margin-left: -18px;
     color: blue;
+    padding-top: 10px;
 }
 .user-content .card-account .procces .pro h3, .user-content .card-account .procces-s .pro h3, .user-content .card-account .procces-r .pro h3 {
 

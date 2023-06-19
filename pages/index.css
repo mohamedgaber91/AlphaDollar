@@ -858,12 +858,12 @@ width: 100px;
 width: 100px;
 }
 .adertising{
-    width: 90%;
-    height: 570px;
+    width: 70%;
+    height: 370px;
     text-align: center;
     margin: auto;
     margin-top: 57px;
-    padding-top: 20%;
+    padding-top: 10%;
     background-color: white;
     color: black;
 }
@@ -971,12 +971,12 @@ margin-right: 0;
         margin-left: 0px;
     }
     .header .header-content .right  .bt {
-        width: 108px;
-        height: 47px;
-        font-size: 14px;
+        width: 83px;
+        height: 32px;
+        font-size: 12px;
         margin: auto;
-        padding-top: 10px;
-        padding-top: 13px;
+        padding-top: 7px;
+        /* padding-top: 13px; */
         margin-bottom: 14px;
     }
    
@@ -1315,6 +1315,7 @@ margin-right: 0;
 }
 #setting{
     width: 234px;
+    padding-top: 49px;
 }
 .system .system-content .system-boxs-mobile .system-box h3 {
     font-size: 17px;
@@ -1388,7 +1389,7 @@ margin-right: 0;
     width: 4px;
     height: 10px;
     top: 4px;
-    font-size: 12px;
+    font-size: 10px;
 }
 img.sahm {
 display: none;
